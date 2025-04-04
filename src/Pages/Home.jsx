@@ -4,27 +4,27 @@ import { ToastContainer, toast } from 'react-toastify';
 import Header from '../Components/Header';
 import Footer from "../Components/Footer"
 import Scroll from '../Components/Scroll';
-import logo from "../assets/logo.jpg"
-import image from "../assets/image.gif"
-import tour from "../assets/tour.png";
-import qariirad from "../assets/qariirad.png";
-import young from "../assets/young.png";
-import hassan from "../assets/hassan.png"
-import abdulkadir from "../assets/Abbdulkadir.png"
-import daqare from "../assets/daqare.jpg"
-import ekrama from "../assets/ekrama.png"
-import star from "../assets/star.png"
-import explore from "../assets/explore.png"
-import travel from "../assets/travel.png";
-import taj from "../assets/Taj.png";
-import zurich from "../assets/Swizerland2.png";
-import bali from "../assets/Bali.png";
-import adventure from "../assets/adventure.png";
-import romance from "../assets/romance.png";
-import culture from "../assets/culture.png";
-import mugadisho from "../assets/mugadisho.jpg";
-import thailand2 from "../assets/thailand2.png";
-import france from "../assets/france.png";
+// import logo from "../assets/logo.jpg"
+// import image from "../assets/image.gif"
+// import tour from "../assets/tour.png";
+// import qariirad from "../assets/qariirad.png";
+// import young from "../assets/young.png";
+// import hassan from "../assets/hassan.png"
+// import abdulkadir from "../assets/Abbdulkadir.png"
+// import daqare from "../assets/daqare.jpg"
+// import ekrama from "../assets/ekrama.png"
+// import star from "../assets/star.png"
+// import explore from "../assets/explore.png"
+// import travel from "../assets/travel.png";
+// import taj from "../assets/Taj.png";
+// import zurich from "../assets/Swizerland2.png";
+// import bali from "../assets/Bali.png";
+// import adventure from "../assets/adventure.png";
+// import romance from "../assets/romance.png";
+// import culture from "../assets/culture.png";
+// import mugadisho from "../assets/mugadisho.jpg";
+// import thailand2 from "../assets/thailand2.png";
+// import france from "../assets/france.png";
 import { NavLink } from 'react-router-dom';
 import { useState } from "react";
 

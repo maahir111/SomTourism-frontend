@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { FaGlobeAmericas, FaTag, FaCompass, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
-import shape from '../assets/shape.png'
-import three from '../assets/three.png'
-import qariirad from '../assets/qariirad.png'
+// import shape from '../assets/shape.png'
+// import three from '../assets/three.png'
+// import qariirad from '../assets/qariirad.png'
 // import abdulkadir from '../assets/abbdulkadir.png'
-import daqare from '../assets/daqare.jpg'
-import hassan from '../assets/hassan.png'
-import ayuub from "../assets/ayuub.png"
+// import daqare from '../assets/daqare.jpg'
+// import hassan from '../assets/hassan.png'
+// import ayuub from "../assets/ayuub.png"
 import ayuub26 from "../assets/ayuub26.png"
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";

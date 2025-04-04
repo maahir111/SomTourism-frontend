@@ -1,7 +1,7 @@
 import React from "react";
-import tokyo from "../assets/tokyo.png";
-import tokyo2 from "../assets/tokyo2.png";
-import tokyo3 from "../assets/tokyo3.png";
+// import tokyo from "../assets/tokyo.png";
+// import tokyo2 from "../assets/tokyo2.png";
+// import tokyo3 from "../assets/tokyo3.png";
 import Footer from "../Components/Footer";
 
 const Register = () => {

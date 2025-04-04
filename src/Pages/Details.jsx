@@ -4,13 +4,13 @@ import { FaStar } from "react-icons/fa";
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 
-import tokyo from '../assets/tokyo.png'
-import jg1 from '../assets/jg1.png'
-import jg2 from '../assets/jg2.png'
-import jg3 from '../assets/jg3.png'
-import jg4 from '../assets/jg4.png'
-import jg5 from '../assets/jg5.png'
-import jg6 from '../assets/jg6.png'
+// import tokyo from '../assets/tokyo.png'
+// import jg1 from '../assets/jg1.png'
+// import jg2 from '../assets/jg2.png'
+// import jg3 from '../assets/jg3.png'
+// import jg4 from '../assets/jg4.png'
+// import jg5 from '../assets/jg5.png'
+// import jg6 from '../assets/jg6.png'
 import Scroll from '../Components/Scroll';
 
 const faqs = [

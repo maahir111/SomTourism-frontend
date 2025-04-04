@@ -3,9 +3,9 @@ import { useState } from "react";
 import axios from "axios"
 import { useNavigate, useParams } from "react-router-dom";
 import {Toaster,toast} from 'react-hot-toast'
-import tokyo from "../assets/tokyo.png";
-import tokyo2 from "../assets/tokyo2.png";
-import tokyo3 from "../assets/tokyo3.png";
+// import tokyo from "../assets/tokyo.png";
+// import tokyo2 from "../assets/tokyo2.png";
+// import tokyo3 from "../assets/tokyo3.png";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Scroll from "../Components/Scroll";
