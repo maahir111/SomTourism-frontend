@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import frame from '../assets/frame.png';
+// import frame from '../assets/frame.png';
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Scroll from "../Components/Scroll";
