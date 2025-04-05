@@ -12,7 +12,7 @@ const Navigate = useNavigate ()
 
 const handleLogin = (evenT)=>{
   event.preventDefault()
-   axios.post("http://localhost:500/admin/login",{
+   axios.post("https://somtourism-backend.onrender.com/admin/login",{
         "Email": Email,
         "Password": Password
     }).then((res)=>{

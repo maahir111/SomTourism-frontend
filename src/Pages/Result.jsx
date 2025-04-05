@@ -18,7 +18,7 @@ function Result() {
  //function data kenaayo
 
 const handleGetData = () => {
-  axios.get("http://localhost:500/get").then((response)=>{
+  axios.get("https://somtourism-backend.onrender.com/get").then((response)=>{
         setData(response.data);
 
     }).catch((err)=>{

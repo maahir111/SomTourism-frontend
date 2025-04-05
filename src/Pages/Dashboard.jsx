@@ -22,7 +22,7 @@ function Dashboard() {
 
 /// api isoo bandhigayo user riradooda
 const hanldGerUser = ( ) =>{
-  axios.get("http://localhost:500/user/total").then((res)=> {
+  axios.get("https://somtourism-backend.onrender.com/user/total").then((res)=> {
       settotalUsers(res.data.totalUsers )
 
   }).catch((err)=>{
@@ -45,7 +45,7 @@ const hanldGerUser = ( ) =>{
 
 
   const hanldGetBOOKIN = ( ) =>{
-    axios.get("http://localhost:500/total").then((res)=> {
+    axios.get("https://somtourism-backend.onrender.com/total").then((res)=> {
         setData(res.data.total)
 
     }).catch((err)=>{
@@ -55,7 +55,7 @@ const hanldGerUser = ( ) =>{
   }
   
   const handleGender = () => {
-    axios.get("http://localhost:500/goaan").then((res) => {
+    axios.get("https://somtourism-backend.onrender.com/goaan").then((res) => {
         setGoaan(res.data); // Set data to { Male: x, Female: y }
       })
       .catch((err) => {

@@ -19,7 +19,7 @@ function Sign() {
   
   const hadleSign = (event)=>{
     event.preventDefault()
-     axios.post("http://localhost:500/sign",{
+     axios.post("https://somtourism-backend.onrender.com/sign",{
       "Name": Name,
       "Email": Email,
       "Password": Password

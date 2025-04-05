@@ -61,7 +61,7 @@ const Register = () => {
       toast.error("Fadlan buuxi dhammaan meelaha bannaan!");
       return;
     }
-    axios.post("http://localhost:500/create", {
+    axios.post("https://somtourism-backend.onrender.com/create", {
       "Name": Name,
       "Email": Email,
       "Type": Type,
