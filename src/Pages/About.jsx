@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import { FaGlobeAmericas, FaTag, FaCompass, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
-// import shape from '../assets/shape.png'
-// import three from '../assets/three.png'
-// import qariirad from '../assets/qariirad.png'
-// import abdulkadir from '../assets/abbdulkadir.png'
-// import daqare from '../assets/daqare.jpg'
-// import hassan from '../assets/hassan.png'
-// import ayuub from "../assets/ayuub.png"
-import ayuub26 from "../assets/ayuub26.png"
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Scroll from "../Components/Scroll";
@@ -17,25 +9,25 @@ const teamMembers = [
   {
     name: "Abdulkadir Ahmed Hassan",
     role: "CEO & Founder",
-    image: abdulkadir,
+    image: "https://i.postimg.cc/MHjZpRPC/Abbdulkadir.png",
     socials: ["facebook", "instagram", "times"]
   },
   {
     name: "Ali Mahomed Mohamuud",
     role: "Manager",
-    image: daqare,
+    image: "https://i.postimg.cc/FHvSws1r/daqare.jpg",
     socials: ["facebook", "instagram", "times"]
   },
   {
     name: "Hassan Abdi Yusuf",
     role: "Tour Manager",
-    image: hassan ,
+    image: "https://i.postimg.cc/Bbss4yFK/hassan.png" ,
     socials: ["facebook", "instagram", "times"] 
   },
   {
     name: "Ayuub Abdiaziz Mohamed",
     role: "Tour Manager 2",
-    image: ayuub26,
+    image: "https://i.postimg.cc/NGyRHzWc/ayuub26.png",
     socials: ["facebook", "instagram", "times"]
   }
 ];
@@ -58,11 +50,11 @@ const AboutPage = () => {
       <Scroll/>
       {/* About Section */}
       <div className="  ">
-        <img className="sm:h-[400px] h-[280px] -mt-6 sm:-mt-0 sm:w-full " src={shape} alt="" />
-        <img className="absolute sm:top-20 sm:mt-0 sm:left-36 sm:w-[900px] " src={qariirad} alt="" />
+        <img className="sm:h-[400px] h-[280px] -mt-6 sm:-mt-0 sm:w-full " src="https://i.postimg.cc/sgnpSCD3/shape.png" alt="" />
+        <img className="absolute sm:top-20 sm:mt-0 sm:left-36 sm:w-[900px] " src="https://i.postimg.cc/ZRQ3Q8v2/qariirad.png" alt="" />
         <div className="">
           <h2 className="text-3xl font-serif absolute top-20  right-32 sm:top-24 sm:right-[550px] font-bold text-gray-800 my-10">About Us</h2>
-          <img  src={three} alt="" className="absolute  sm:top-52 top-44 left-5 sm:left-36 w-[350px] sm:w-96 h-[380px] sm:h-96" />
+          <img  src="https://i.postimg.cc/6QyCfbyn/three.png" alt="" className="absolute  sm:top-52 top-44 left-5 sm:left-36 w-[350px] sm:w-96 h-[380px] sm:h-96" />
         </div>
         <div className=" sm:w-[500px] sm:mt-0 mx-8  sm:absolute sm:top-48 sm:right-[150px]">
           <div>

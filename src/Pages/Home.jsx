@@ -4,37 +4,17 @@ import { ToastContainer, toast } from 'react-toastify';
 import Header from '../Components/Header';
 import Footer from "../Components/Footer"
 import Scroll from '../Components/Scroll';
-// import logo from "../assets/logo.jpg"
-// import image from "../assets/image.gif"
-// import tour from "../assets/tour.png";
-// import qariirad from "../assets/qariirad.png";
-// import young from "../assets/young.png";
-// import hassan from "../assets/hassan.png"
-// import abdulkadir from "../assets/Abbdulkadir.png"
-// import daqare from "../assets/daqare.jpg"
-// import ekrama from "../assets/ekrama.png"
-// import star from "../assets/star.png"
-// import explore from "../assets/explore.png"
-// import travel from "../assets/travel.png";
-// import taj from "../assets/Taj.png";
-// import zurich from "../assets/Swizerland2.png";
-// import bali from "../assets/Bali.png";
-// import adventure from "../assets/adventure.png";
-// import romance from "../assets/romance.png";
-// import culture from "../assets/culture.png";
-// import mugadisho from "../assets/mugadisho.jpg";
-// import thailand2 from "../assets/thailand2.png";
-// import france from "../assets/france.png";
 import { NavLink } from 'react-router-dom';
 import { useState } from "react";
 
 
 const travelOptions = {
   All: [
+    { img: "https://i.pinimg.com/736x/5a/2a/28/5a2a2845220b43007c937cadfbc3d1af.jpg", destination: "Mount Fuji", location: "Japan", price: "$1800" },
     { img: "https://i.pinimg.com/736x/8c/e7/fb/8ce7fb71350d9f494084c46bed4b4aa2.jpg", destination: "Xeebta Liido", location: "Banaadir", price: "$500" },
     { img: "https://i.pinimg.com/474x/39/a1/46/39a14620a67abf99d8cdafb188d98b3d.jpg", destination: "Eiffel Tower", location: "Paris", price: "$900" },
     { img: "https://i.pinimg.com/736x/b6/5c/25/b65c25280c938d8969c865e167b17c96.jpg", destination: "Tower Bridge", location: "London", price: "$1500" },
-    { img: "https://i.pinimg.com/736x/ac/3e/34/ac3e343d4485dccb525798e94469a0c5.jpg", destination: "Japan", location: "London", price: "$1400" }
+    { img: "https://i.pinimg.com/736x/ac/3e/34/ac3e343d4485dccb525798e94469a0c5.jpg", destination: "Osaka", location: "Japan", price: "$1400" }
   ],
   Somalia: [
     { img: "https://i.pinimg.com/736x/8c/e7/fb/8ce7fb71350d9f494084c46bed4b4aa2.jpg", destination: "Xeebta Liido", location: "Banaadir", price: "$500" },
@@ -71,9 +51,9 @@ const destinations = [
 ];
 
 const tours = [
-    { title: "Adventure", image: adventure },
-    { title: "Romance", image:  romance },
-    { title: "Culture", image: culture },
+    { title: "Adventure", image: "https://i.postimg.cc/j54mQjWD/Adventure.png" },
+    { title: "Romance", image:  "https://i.postimg.cc/bY6FzW1f/Romance.png" },
+    { title: "Culture", image: "https://i.postimg.cc/jjzFtj4M/Culture.png" },
 ];
 
 
@@ -213,9 +193,9 @@ const chooseUs =[
 ]
 
 const Testimonial = [
-    {img: hassan, name: "Eng Hassan", title: "Graphic Designer ", p: "The design is visually appealing with a clean layout and a well-balanced color scheme, creating a professional and engaging user experience. However, it could be improved by enhancing typography contrast for better readability and optimizing image sizes to improve loading speed."},
-    {img: abdulkadir, name: "Eng Abdulkadir Ahmed", title: "Software Engineer ", p: "The product management strategy is well-structured, focusing on user needs and business goals. However, improving cross-functional collaboration and incorporating more user feedback loops could enhance the overall product development process. Additionally, a clearer roadmap with measurable milestones would improve alignment with stakeholders"},
-    {img: ekrama,star: star, name: "Eng Ekrama", title: "UI/UX Designer ", p: "The UI/UX design is intuitive and visually appealing, providing a seamless user experience. However, there is room for improvement in accessibility by optimizing contrast and typography for readability. Additionally, incorporating more user testing insights could help refine the design for better engagement and usability"},
+    {img: "https://i.postimg.cc/Bbss4yFK/hassan.png", name: "Eng Hassan", title: "Graphic Designer ", p: "The design is visually appealing with a clean layout and a well-balanced color scheme, creating a professional and engaging user experience. However, it could be improved by enhancing typography contrast for better readability and optimizing image sizes to improve loading speed."},
+    {img: "https://i.postimg.cc/MHjZpRPC/Abbdulkadir.png", name: "Eng Abdulkadir Ahmed", title: "Software Engineer ", p: "The product management strategy is well-structured, focusing on user needs and business goals. However, improving cross-functional collaboration and incorporating more user feedback loops could enhance the overall product development process. Additionally, a clearer roadmap with measurable milestones would improve alignment with stakeholders"},
+    {img: "https://i.postimg.cc/nLypwMcT/ekrama.png" ,star: "https://i.postimg.cc/JnsKt4Nw/star.png", name: "Eng Ekrama", title: "UI/UX Designer ", p: "The UI/UX design is intuitive and visually appealing, providing a seamless user experience. However, there is room for improvement in accessibility by optimizing contrast and typography for readability. Additionally, incorporating more user testing insights could help refine the design for better engagement and usability"},
 ]
 
 
@@ -303,7 +283,7 @@ function Home(props) {
 </clipPath>
 </defs>
                     </svg>
-          <img className='sm:w-[600px] z-10 ' src={image} alt="" />
+          <img className='sm:w-[600px] z-10 ' src="https://i.postimg.cc/QxTgRybb/image.gif" alt="" />
         </div>
       </div>
 
@@ -360,7 +340,7 @@ function Home(props) {
 
             <div>
                 <div>
-                    <img src={props.a1} alt="" />
+                    <img src="" alt="" />
 
                 </div>
             </div>
@@ -370,7 +350,7 @@ function Home(props) {
             
                     {/* 1 */}
                   <div className="flex flex-col md:flex-row sm:px-10  px-5 my-3 gap-10 pt-6 sm:p-6 ">
-                    <img src={travel} alt="Traveler" className="w-[350px]  h-[400px]  rounded-xl" />
+                    <img src="https://i.postimg.cc/XNc4QjMc/a1.png" alt="Traveler" className="w-[350px]  h-[350px]  rounded-xl" />
                     <div className="md:ml-6 sm:mt-10 md:mt-0 text-center sm:w-[600px] md:text-left ">
                       <h2 className="text-orange-400 text-sm  font-semibold">ABOUT US</h2>
                       <h1 className="text-2xl font-semibold font-serif mt-5">The Story Behind Our Journeys</h1>
@@ -483,7 +463,7 @@ function Home(props) {
           {travelOptions[selectedCategory].slice(0, selectedCategory === "" ? 3 : 6).map((travel, index) => (
             <div key={index} className="bg-[#FCFDFF] shadow-lg rounded-lg overflow-hidden">
               <div>
-                <NavLink to="/booking">
+                <NavLink to="/detail">
                   <img src={travel.img} alt={travel.destination} className="w-full h-[250px] object-cover" />
                 </NavLink>
               </div>
@@ -523,7 +503,7 @@ function Home(props) {
             <div>
                 <div className="relative w-full bg h-[60vh] mb-10 ">
                 <div className="absolute inset-0  flex flex-col items-center justify-center text-white text-center ">
-                    <img className="w-full h-full " src={tour} alt="" />
+                    <img className="w-full h-full " src="https://i.postimg.cc/7hcVgvNC/tour.png" alt="" />
                     <h1 className="absolute top-20 text-[16px] ">All Inclusive Tour Packages</h1>
                     <p className="absolute  text-[#eeefef] font-serif text-2xl font-semibold mt-2 sm:w-[500px] ">No matter the size of your group, whether small or corporate, we have the ideal package tailored just for you.</p>
                 </div>
@@ -541,10 +521,10 @@ function Home(props) {
                         </div>
                         ))}
                 </div>
-                  <div className="h-screen w-[700px] bg-cover sm:flex hidden ml-[350px]  " style={{ backgroundImage: `url(${qariirad})`,  }}>
+                  <div className="h-screen w-[700px] bg-cover sm:flex hidden ml-[350px]  " style={{ backgroundImage: `url('https://i.postimg.cc/ZRQ3Q8v2/qariirad.png')`,  }}>
                     <div className='flex  w-full' >
                       <div className="bg-[#FFB904]  absolute right-0    text-white w-full sm:w-[700px] h-[250px] mt-80 rounded-l-[350px]"></div>
-                      <img className=' w-[521px] absolute right-10  -mt-[18px]' src={young} alt="" />
+                      <img className=' w-[521px] absolute right-10  -mt-[18px]' src="https://i.postimg.cc/htVr75Qj/young.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -569,7 +549,7 @@ function Home(props) {
                         <   div className='border-[1px] w-full border-[#bfbebe]'></div>
                         <   div className='flex gap-2  items-center mt-5'>
                                 <h1 className='text-[#505050] text-[16px]'>Reviews</h1>
-                                <img className='w-28' src={star} alt="" />
+                                <img className='w-28' src="https://i.postimg.cc/JnsKt4Nw/star.png" alt="" />
                             </div>
                             </div>
                         </div>
@@ -586,7 +566,7 @@ function Home(props) {
             
             <div className="relative mb-10 bg-black w-full sm:h-[60vh] h-[25vh] ">
                 <div className="absolute inset-0  flex  items-center justify-center text-white text-center ">
-                    <img className="w-full sm:h-full h-[250px] " src={explore} alt="" />
+                    <img className="w-full sm:h-full h-[250px] " src="https://i.postimg.cc/vHc2Dhvg/explore.png" alt="" />
                     <div className='absolute sm:flex items-center justify-between w-full sm:px-10'>
                         <div className='text-left ml-5 sm:ml-0'>
                             <h1 className=" text-[16px] text-[#FF8126] ">Let's Explore the World</h1>

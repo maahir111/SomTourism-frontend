@@ -4,13 +4,6 @@ import { FaStar } from "react-icons/fa";
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 
-// import tokyo from '../assets/tokyo.png'
-// import jg1 from '../assets/jg1.png'
-// import jg2 from '../assets/jg2.png'
-// import jg3 from '../assets/jg3.png'
-// import jg4 from '../assets/jg4.png'
-// import jg5 from '../assets/jg5.png'
-// import jg6 from '../assets/jg6.png'
 import Scroll from '../Components/Scroll';
 
 const faqs = [
@@ -21,12 +14,12 @@ const faqs = [
   { question: "Day 5 - Nara and the Temples of Kyoto", answer: "We'll begin our day with a trip to Nara, where we’ll visit Todai-ji Temple, home to Japan’s largest Buddha statue, and interact with the friendly deer of Nara Park. In the afternoon, we return to Kyoto to explore Fushimi Inari Shrine, famous for its thousands of red torii gates. The evening includes a farewell dinner. Sleep in Kyoto. Walking: moderate." }
 ];
 const gallery = [
-  { img: jg1},
-  { img: jg2},
-  { img: jg3},
-  { img: jg4},
-  { img: jg5},
-  { img: jg6}
+  { img: "https://i.postimg.cc/vB7Tr5L5/g1.png"},
+  { img: "https://i.postimg.cc/GtqpNrf2/g2.png"},
+  { img: "https://i.postimg.cc/fWKkkjbN/jg3.png"},
+  { img: "https://i.postimg.cc/wT4vQqJ4/g4.png"},
+  { img: "https://i.postimg.cc/t41grKNq/g5.png"},
+  { img: "https://i.postimg.cc/wBLjzDrn/g6.png"}
 ];
 
 
@@ -102,7 +95,7 @@ function Datials() {
           </div>
 
       <div className=' text-white   my-4 rounded-2xl '>
-        <img className='w-full h-[400px] ' src={tokyo} alt="" />
+        <img className='w-full h-[400px] ' src="https://i.postimg.cc/4xhJvzXn/tokyo.png" alt="" />
 
       </div>
       <div className=' flex sm:flex-row flex-col justify-between '>

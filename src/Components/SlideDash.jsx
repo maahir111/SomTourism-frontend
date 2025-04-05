@@ -63,10 +63,6 @@ function SlideDash() {
               <FaClipboardList size={20} />
               <span className="text-lg sm:text-base">Result</span>
             </NavLink>
-            <NavLink to="/update/:id" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-blue-500 transition">
-              <FaEdit size={20} />
-              <span className="text-lg sm:text-base">Update</span>
-            </NavLink>
           </ul>
         </div>
         <button onClick={LogOut} className="bg-orange-500 px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-orange-600 transition">

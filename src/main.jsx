@@ -4,7 +4,6 @@ import './index.css'
 import App from './App.jsx'
 import Header from './Components/Header.jsx'
 import Scroll from './Components/Scroll'
-import Appi from './Components/app.jsx'
 
 import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(

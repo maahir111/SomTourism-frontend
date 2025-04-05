@@ -3,9 +3,6 @@ import { useState } from "react";
 import axios from "axios"
 import { useNavigate, useParams } from "react-router-dom";
 import {Toaster,toast} from 'react-hot-toast'
-// import tokyo from "../assets/tokyo.png";
-// import tokyo2 from "../assets/tokyo2.png";
-// import tokyo3 from "../assets/tokyo3.png";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Scroll from "../Components/Scroll";
@@ -29,11 +26,11 @@ const Register = () => {
   const [Price, setPrice] = useState(0);
 
   const countryPrices = {
-    Somalia: 50,
-    Paris: 200,
-    Canada: 150,
-    London: 250,
-    Japan: 300
+    Somalia: 1200,
+    Paris: 6000,
+    Canada: 8400,
+    London: 7000,
+    Japan: 6000
   };
 
     // Function: Markii wadanka la doorto
@@ -121,8 +118,14 @@ const Register = () => {
           <input value={Guest} onChange={handleGuestChange} type="number" placeholder="Guests" className="border outline-none p-2 rounded w-full" />
           <input value={Adress} onChange={(event) => setAdress (event.target.value)} type="text" placeholder="Pickup Address" className="border outline-none p-2 rounded w-full" />
           <input value={Mobile} onChange={(event) => setMobile (event.target.value)} type="Numbetr" placeholder="Enter Your Number" className="border outline-none p-2 rounded w-full" />
-          <input value={ChecKIn} onChange={(event) => setChecKIn (event.target.value)} type="date" placeholder="Enter your Check In" className="border outline-none p-2 rounded w-full" />
-          <input value={dhacid} onChange={(event) => setdhacid (event.target.value)} type="date" placeholder="Enter your Check Out  " className="border outline-none p-2 rounded w-full" />
+          <div>
+            <label htmlFor="">Check In</label>
+            <input value={ChecKIn} onChange={(event) => setChecKIn (event.target.value)} type="date" placeholder="Enter your Check In" className="border outline-none p-2 rounded w-full" />
+          </div>
+          <div>
+            <label htmlFor="">Check Out</label>
+            <input value={dhacid} onChange={(event) => setdhacid (event.target.value)} type="date" placeholder="Enter your Check Out  " className="border outline-none p-2 rounded w-full" />
+          </div>
         </form>
         <div className="flex flex-col sm:flex-row justify-between items-center mt-6">
         <span className="text-lg sm:text-xl font-bold">Total Price: ${Price}</span>

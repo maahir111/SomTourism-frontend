@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from "react";
-import logo from "../assets/logo.gif"
 import { NavLink , Link } from 'react-router-dom'
 import { FaUser } from "react-icons/fa";
 
@@ -21,7 +20,7 @@ function Header() {
                 </div>
                 <div className="flex items-center gap-2">
                     <div className="flex items-center  text-[#FF8126] font-bold text-2xl">
-                        <img className="sm:w-[80px] sm:-ml-5 w-[60px]" src={logo} alt="logo" />
+                        <img className="sm:w-[80px] sm:-ml-5 w-[60px]" src="https://i.postimg.cc/N0g12fwJ/logo.gif" alt="logo" />
                         <h1>SomTourist</h1>
                     </div>
                 </div>

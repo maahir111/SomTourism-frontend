@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import frame from '../assets/frame.png';
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Scroll from "../Components/Scroll";
@@ -38,7 +37,7 @@ const Destination = () => {
       <Scroll/>
       <div className="relative w-full h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('/destination.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center ">
-          <img className="w-full h-full " src={frame} alt="" />
+          <img className="w-full h-full " src="https://i.postimg.cc/wMK5v5xJ/Frame.png" alt="" />
           <h1 className="absolute text-4xl font-bold">Destination</h1>
           <p className="absolute bottom-20 text-[#d1d0d0] mt-2 max-w-2xl">Showcase your destination offers with the all-encompassing destination lists that contain all the amazing places your customers can visit.</p>
         </div>
